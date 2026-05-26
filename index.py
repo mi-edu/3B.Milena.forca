@@ -15,7 +15,7 @@ palavras = [
     "terminal"
 ]
 
-# Desenhos da forca
+
 forca = [
 """
   +---+
@@ -88,7 +88,6 @@ forca = [
 """
 ]
 
-# Variável de recorde
 recorde = 0
 
 def escolher_palavra():
@@ -127,7 +126,6 @@ def jogar():
 
     while vidas > 0:
 
-        # Mostra desenho da forca
         print(forca[6 - vidas])
 
         print("Palavra:", mostrar_palavra(
@@ -146,7 +144,7 @@ def jogar():
 
         letra = input("Digite uma letra: ").lower()
 
-        # Validação
+        
         if len(letra) != 1:
             print("Digite apenas UMA letra.\n")
             continue
@@ -161,7 +159,7 @@ def jogar():
 
         letras_tentadas.append(letra)
 
-        # Verifica acerto
+        
         if letra in palavra_secreta:
             print("Boa! A letra existe na palavra.")
             letras_acertadas.append(letra)
@@ -175,7 +173,7 @@ def jogar():
 
         print()
 
-        # Verifica vitória
+        
         venceu = all(
             letra in letras_acertadas
             for letra in palavra_secreta
@@ -187,7 +185,7 @@ def jogar():
             print("A palavra era:", palavra_secreta)
             print("Pontuação final:", pontos)
 
-            # Atualiza recorde
+            
             if pontos > recorde:
                 recorde = pontos
                 print("NOVO RECORDE!")
@@ -195,7 +193,7 @@ def jogar():
             print("=" * 40)
             break
 
-    # Derrota
+    
     if vidas == 0:
 
         print(forca[6])
@@ -205,16 +203,13 @@ def jogar():
         print("A palavra era:", palavra_secreta)
         print("Pontuação final:", pontos)
 
-        # Atualiza recorde
+        
         if pontos > recorde:
             recorde = pontos
             print("NOVO RECORDE!")
 
         print("=" * 40)
 
-# ============================================================
-# LOOP PRINCIPAL
-# ============================================================
 
 while True:
 
