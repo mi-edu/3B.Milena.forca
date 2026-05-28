@@ -37,8 +37,3 @@ O diferencial desta versão do jogo da forca é a adição de:
 *  **Exibição de letras erradas na tela**
 
 Esses elementos tornam o jogo mais interativo, organizado e divertido para o usuário.
----
-
-# 👩‍💻 Autora
-
-Projeto desenvolvido por **Milena** 
