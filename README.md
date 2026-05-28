@@ -1,5 +1,5 @@
 
-# 🎮 3B.Milena.forca
+#  3B.Milena.forca
 
 ## Jogo da Forca em Python
 
@@ -41,10 +41,4 @@ Esses elementos tornam o jogo mais interativo, organizado e divertido para o usu
 
 # 👩‍💻 Autora
 
-Projeto desenvolvido por **Milena** 💜
-
----
-
-Se você quiser, posso também criar uma **versão visual da seção de funcionalidades**, com ícones e exemplos de tela mostrando **como aparecem as letras erradas, a forca em ASCII e o recorde**, exatamente como o jogador vê no terminal.
-
-Quer que eu faça isso?
+Projeto desenvolvido por **Milena** 
